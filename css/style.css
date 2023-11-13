@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Main Styling */
+html,
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+p {
+	margin-bottom: 0 !important;
+}
+
+/* Bootstrap Classes */
+.btn-primary {
+	background: #991a12 !important;
+	border: 1px solid #fff;
+}
+
+.bg-secondary {
+	background: url('/images/background.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+/* Utility Classes */
+.store {
+	overflow: hidden;
+}
+
+.box-1 {
+	background: url('/images/article-1.jpg');
+}
+.box-2 {
+	background: url('/images/article-2.jpg');
+}
+.box-3 {
+	background: url('/images/article-3.jpg');
+}
+.box-4 {
+	background: #991a12 !important;
+}
+.box-5 {
+	background: url('/images/article-5.jpg');
+}
+.box-6 {
+	background: url('/images/article-6.jpg');
+}
+.box-7 {
+	background: url('/images/article-7.jpg');
+}
+
+.box {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	min-width: auto;
+}
+
+.pt-6 {
+	padding-top: 200px;
+}
+
+.pt-7 {
+	padding-top: 490px;
+}
+
+.row {
+	padding-right: 0 !important;
+	padding-left: 0 !important;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+	.box-5 {
+		background-position: 60% 50%;
+	}
+	.pt-7 {
+		padding-top: 20px;
+	}
+}
