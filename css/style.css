@@ -3,19 +3,15 @@
 /* Main Styling */
 html,
 body {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Montserrat' sans-serif;
+	color: #fff;
 }
 
 p {
 	margin-bottom: 0 !important;
 }
 
-/* Bootstrap Classes */
-.btn-primary {
-	background: #991a12 !important;
-	border: 1px solid #fff;
-}
-
+/* Bootstrap styling */
 .bg-secondary {
 	background: url('/images/background.png');
 	background-repeat: no-repeat;
@@ -23,9 +19,27 @@ p {
 	background-size: cover;
 }
 
+.btn-primary {
+	background: #991a12;
+	border: 1px solid #fff;
+}
+
+.btn-primary:hover {
+	background: #000;
+	border: 1px solid #fff;
+}
+
 /* Utility Classes */
 .store {
 	overflow: hidden;
+}
+
+.pt-6 {
+	padding-top: 200px;
+}
+
+.pt-7 {
+	padding-top: 490px;
 }
 
 .box-1 {
@@ -55,14 +69,6 @@ p {
 	background-position: center;
 	background-size: cover;
 	min-width: auto;
-}
-
-.pt-6 {
-	padding-top: 200px;
-}
-
-.pt-7 {
-	padding-top: 490px;
 }
 
 .row {
